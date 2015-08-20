@@ -1,0 +1,69 @@
+
+ 1. subject                                                
+ 2. activity                                               
+ 3. TimeBodyAccelerationMean-X                             
+ 4. TimeBodyAccelerationMean-Y                             
+ 5. TimeBodyAccelerationMean-Z                             
+ 6. TimeBodyAccelerationStandardDeviation-X                
+ 7. TimeBodyAccelerationStandardDeviation-Y                
+ 8. TimeBodyAccelerationStandardDeviation-Z                
+ 9. TimeGravityAccelerationMean-X                          
+10. TimeGravityAccelerationMean-Y                          
+11. TimeGravityAccelerationMean-Z                          
+12. TimeGravityAccelerationStandardDeviation-X             
+13. TimeGravityAccelerationStandardDeviation-Y             
+14. TimeGravityAccelerationStandardDeviation-Z             
+15. TimeBodyAccelerationJerkMean-X                         
+16. TimeBodyAccelerationJerkMean-Y                         
+17. TimeBodyAccelerationJerkMean-Z                         
+18. TimeBodyAccelerationJerkStandardDeviation-X            
+19. TimeBodyAccelerationJerkStandardDeviation-Y            
+20. TimeBodyAccelerationJerkStandardDeviation-Z            
+21. TimeBodyGyroscopicMean-X                               
+22. TimeBodyGyroscopicMean-Y                               
+23. TimeBodyGyroscopicMean-Z                               
+24. TimeBodyGyroscopicStandardDeviation-X                  
+25. TimeBodyGyroscopicStandardDeviation-Y                  
+26. TimeBodyGyroscopicStandardDeviation-Z                  
+27. TimeBodyGyroscopicJerkMean-X                           
+28. TimeBodyGyroscopicJerkMean-Y                           
+29. TimeBodyGyroscopicJerkMean-Z                           
+30. TimeBodyGyroscopicJerkStandardDeviation-X              
+31. TimeBodyGyroscopicJerkStandardDeviation-Y              
+32. TimeBodyGyroscopicJerkStandardDeviation-Z              
+33. TimeBodyAccelerationMagnitudeMean                      
+34. TimeBodyAccelerationMagnitudeStandardDeviation         
+35. TimeGravityAccelerationMagnitudeMean                   
+36. TimeGravityAccelerationMagnitudeStandardDeviation      
+37. TimeBodyAccelerationJerkMagnitudeMean                  
+38. TimeBodyAccelerationJerkMagnitudeStandardDeviation     
+39. TimeBodyGyroscopicMagnitudeMean                        
+40. TimeBodyGyroscopicMagnitudeStandardDeviation           
+41. TimeBodyGyroscopicJerkMagnitudeMean                    
+42. TimeBodyGyroscopicJerkMagnitudeStandardDeviation       
+43. FrequencyBodyAccelerationMean-X                        
+44. FrequencyBodyAccelerationMean-Y                        
+45. FrequencyBodyAccelerationMean-Z                        
+46. FrequencyBodyAccelerationStandardDeviation-X           
+47. FrequencyBodyAccelerationStandardDeviation-Y           
+48. FrequencyBodyAccelerationStandardDeviation-Z           
+49. FrequencyBodyAccelerationJerkMean-X                    
+50. FrequencyBodyAccelerationJerkMean-Y                    
+51. FrequencyBodyAccelerationJerkMean-Z                    
+52. FrequencyBodyAccelerationJerkStandardDeviation-X       
+53. FrequencyBodyAccelerationJerkStandardDeviation-Y       
+54. FrequencyBodyAccelerationJerkStandardDeviation-Z       
+55. FrequencyBodyGyroscopicMean-X                          
+56. FrequencyBodyGyroscopicMean-Y                          
+57. FrequencyBodyGyroscopicMean-Z                          
+58. FrequencyBodyGyroscopicStandardDeviation-X             
+59. FrequencyBodyGyroscopicStandardDeviation-Y             
+60. FrequencyBodyGyroscopicStandardDeviation-Z             
+61. FrequencyBodyAccelerationMagnitudeMean                 
+62. FrequencyBodyAccelerationMagnitudeStandardDeviation    
+63. FrequencyBodyAccelerationJerkMagnitudeMean             
+64. FrequencyBodyAccelerationJerkMagnitudeStandardDeviation
+65. FrequencyBodyGyroscopicMagnitudeMean                   
+66. FrequencyBodyGyroscopicMagnitudeStandardDeviation      
+67. FrequencyBodyGyroscopicJerkMagnitudeMean               
+68. FrequencyBodyGyroscopicJerkMagnitudeStandardDeviation  
