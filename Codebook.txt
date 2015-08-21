@@ -1,69 +1,210 @@
 
- 1. subject                                                
- 2. activity                                               
- 3. TimeBodyAccelerationMean-X                             
- 4. TimeBodyAccelerationMean-Y                             
- 5. TimeBodyAccelerationMean-Z                             
- 6. TimeBodyAccelerationStandardDeviation-X                
- 7. TimeBodyAccelerationStandardDeviation-Y                
- 8. TimeBodyAccelerationStandardDeviation-Z                
- 9. TimeGravityAccelerationMean-X                          
-10. TimeGravityAccelerationMean-Y                          
-11. TimeGravityAccelerationMean-Z                          
-12. TimeGravityAccelerationStandardDeviation-X             
-13. TimeGravityAccelerationStandardDeviation-Y             
-14. TimeGravityAccelerationStandardDeviation-Z             
-15. TimeBodyAccelerationJerkMean-X                         
-16. TimeBodyAccelerationJerkMean-Y                         
-17. TimeBodyAccelerationJerkMean-Z                         
-18. TimeBodyAccelerationJerkStandardDeviation-X            
-19. TimeBodyAccelerationJerkStandardDeviation-Y            
-20. TimeBodyAccelerationJerkStandardDeviation-Z            
-21. TimeBodyGyroscopicMean-X                               
-22. TimeBodyGyroscopicMean-Y                               
-23. TimeBodyGyroscopicMean-Z                               
-24. TimeBodyGyroscopicStandardDeviation-X                  
-25. TimeBodyGyroscopicStandardDeviation-Y                  
-26. TimeBodyGyroscopicStandardDeviation-Z                  
-27. TimeBodyGyroscopicJerkMean-X                           
-28. TimeBodyGyroscopicJerkMean-Y                           
-29. TimeBodyGyroscopicJerkMean-Z                           
-30. TimeBodyGyroscopicJerkStandardDeviation-X              
-31. TimeBodyGyroscopicJerkStandardDeviation-Y              
-32. TimeBodyGyroscopicJerkStandardDeviation-Z              
-33. TimeBodyAccelerationMagnitudeMean                      
-34. TimeBodyAccelerationMagnitudeStandardDeviation         
-35. TimeGravityAccelerationMagnitudeMean                   
-36. TimeGravityAccelerationMagnitudeStandardDeviation      
-37. TimeBodyAccelerationJerkMagnitudeMean                  
-38. TimeBodyAccelerationJerkMagnitudeStandardDeviation     
-39. TimeBodyGyroscopicMagnitudeMean                        
-40. TimeBodyGyroscopicMagnitudeStandardDeviation           
-41. TimeBodyGyroscopicJerkMagnitudeMean                    
-42. TimeBodyGyroscopicJerkMagnitudeStandardDeviation       
-43. FrequencyBodyAccelerationMean-X                        
-44. FrequencyBodyAccelerationMean-Y                        
-45. FrequencyBodyAccelerationMean-Z                        
-46. FrequencyBodyAccelerationStandardDeviation-X           
-47. FrequencyBodyAccelerationStandardDeviation-Y           
-48. FrequencyBodyAccelerationStandardDeviation-Z           
-49. FrequencyBodyAccelerationJerkMean-X                    
-50. FrequencyBodyAccelerationJerkMean-Y                    
-51. FrequencyBodyAccelerationJerkMean-Z                    
-52. FrequencyBodyAccelerationJerkStandardDeviation-X       
-53. FrequencyBodyAccelerationJerkStandardDeviation-Y       
-54. FrequencyBodyAccelerationJerkStandardDeviation-Z       
-55. FrequencyBodyGyroscopicMean-X                          
-56. FrequencyBodyGyroscopicMean-Y                          
-57. FrequencyBodyGyroscopicMean-Z                          
-58. FrequencyBodyGyroscopicStandardDeviation-X             
-59. FrequencyBodyGyroscopicStandardDeviation-Y             
-60. FrequencyBodyGyroscopicStandardDeviation-Z             
-61. FrequencyBodyAccelerationMagnitudeMean                 
-62. FrequencyBodyAccelerationMagnitudeStandardDeviation    
-63. FrequencyBodyAccelerationJerkMagnitudeMean             
+ 1. subject 
+  - identification number of 30 volunteers
+                                             
+ 2. activity
+  - activities performanced by volunteers
+    1 WALKING
+    2 WALKING_UPSTAIRS
+    3 WALKING_DOWNSTAIRS
+    4 SITTING
+    5 STANDING
+    6 LAYING
+    
+ 3. TimeBodyAccelerationMean-X
+  - average for mean value of Time Signal from Body Acceleration - X axis
+                             
+ 4. TimeBodyAccelerationMean-Y 
+  - average for mean value of Time Signal from Body Acceleration - Y axis 
+                             
+ 5. TimeBodyAccelerationMean-Z 
+  - average for mean value of Time Signal from Body Acceleration - Z axis 
+                             
+ 6. TimeBodyAccelerationStandardDeviation-X
+  - average for Standard Deviation value of Time Signal from Body Acceleration - X axis
+              
+ 7. TimeBodyAccelerationStandardDeviation-Y
+  - average for Standard Deviation value of Time Signal from Body Acceleration - Y axis
+                 
+ 8. TimeBodyAccelerationStandardDeviation-Z 
+  - average for Standard Deviation value of Time Signal from Body Acceleration - Z axis
+                 
+ 9. TimeGravityAccelerationMean-X
+  - average for mean value of Time Signal from Gravity Acceleration - X axis
+                            
+10. TimeGravityAccelerationMean-Y
+  - average for mean value of Time Signal from Gravity Acceleration - Y axis
+                          
+11. TimeGravityAccelerationMean-Z
+  - average for mean value of Time Signal from Gravity Acceleration - Z axis
+                         
+12. TimeGravityAccelerationStandardDeviation-X  
+  - average for Standard Deviation value of Time Signal from Gravity Acceleration - X axis 
+            
+13. TimeGravityAccelerationStandardDeviation-Y
+  - average for Standard Deviation value of Time Signal from Gravity Acceleration - Y axis
+              
+14. TimeGravityAccelerationStandardDeviation-Z
+  - average for Standard Deviation value of Time Signal from Gravity Acceleration - Z axis
+              
+15. TimeBodyAccelerationJerkMean-X
+  - average for mean value of Time Signal from Body Acceleration Jerk - X axis
+                        
+16. TimeBodyAccelerationJerkMean-Y
+  - average for mean value of Time Signal from Body Acceleration Jerk - Y axis 
+                        
+17. TimeBodyAccelerationJerkMean-Z
+  - average for mean value of Time Signal from Body Acceleration Jerk - Z axis
+                         
+18. TimeBodyAccelerationJerkStandardDeviation-X
+  - average for Standard Deviation value of Time Signal from Body Acceleration Jerk - X axis
+              
+19. TimeBodyAccelerationJerkStandardDeviation-Y
+  - average for Standard Deviation value of Time Signal from Body Acceleration Jerk - Y axis
+             
+20. TimeBodyAccelerationJerkStandardDeviation-Z
+  - average for Standard Deviation value of Time Signal from Body Acceleration Jerk - Z axis
+             
+21. TimeBodyGyroscopicMean-X
+  - average for mean value of Time Signal from Body Gyroscope - X axis
+                               
+22. TimeBodyGyroscopicMean-Y
+  - average for mean value of Time Signal from Body Gyroscope - Y axis
+                               
+23. TimeBodyGyroscopicMean-Z
+  - average for mean value of Time Signal from Body Gyroscope - Z axis
+                               
+24. TimeBodyGyroscopicStandardDeviation-X
+  - average for Standard Deviation value of Time Signal from Body Gyroscope - X axis
+                   
+25. TimeBodyGyroscopicStandardDeviation-Y
+  - average for Standard Deviation value of Time Signal from Body Gyroscope - Y axis
+                 
+26. TimeBodyGyroscopicStandardDeviation-Z
+  - average for Standard Deviation value of Time Signal from Body Gyroscope - Z axis
+  
+27. TimeBodyGyroscopicJerkMean-X
+  - average for mean value of Time Signal from Body Gyroscopic Jerk - X axis
+                           
+28. TimeBodyGyroscopicJerkMean-Y
+  - average for mean value of Time Signal from Body Gyroscopic Jerk - Y axis
+                               
+29. TimeBodyGyroscopicJerkMean-Z 
+  - average for mean value of Time Signal from Body Gyroscopic Jerk - Z axis
+                            
+30. TimeBodyGyroscopicJerkStandardDeviation-X
+  - average for Standard Deviation value of Time Signal from Body Gyroscopic Jerk - X axis
+                
+31. TimeBodyGyroscopicJerkStandardDeviation-Y
+  - average for Standard Deviation value of Time Signal from Body Gyroscopic Jerk - Y axis
+               
+32. TimeBodyGyroscopicJerkStandardDeviation-Z
+  - average for Standard Deviation value of Time Signal from Body Gyroscopic Jerk - Z axis
+             
+33. TimeBodyAccelerationMagnitudeMean
+  - average for mean value of Time Signal from Body Acceleration Magnitude
+                      
+34. TimeBodyAccelerationMagnitudeStandardDeviation
+  - average for Standard Deviation value of Time Signal from Body Acceleration Magnitude
+         
+35. TimeGravityAccelerationMagnitudeMean
+  - average for mean value of Time Signal from Gravity Acceleration Magnitude
+                   
+36. TimeGravityAccelerationMagnitudeStandardDeviation
+  - average for Standard Deviation value of Time Signal from Gravity Acceleration Magnitude
+      
+37. TimeBodyAccelerationJerkMagnitudeMean
+  - average for mean value of Time Signal from Body Acceleration Jerk Magnitude
+                 
+38. TimeBodyAccelerationJerkMagnitudeStandardDeviation
+  - average for Standard Deviation value of Time Signal from Body Acceleration Jerk Magnitude
+       
+39. TimeBodyGyroscopicMagnitudeMean
+  - average for mean value of Time Signal from Body Gyroscopic Magnitude
+                       
+40. TimeBodyGyroscopicMagnitudeStandardDeviation
+  - average for Standard Deviation value of Time Signal from Body Gyroscopic Magnitude
+          
+41. TimeBodyGyroscopicJerkMagnitudeMean
+  - average for mean value of Time Signal from Body Gyroscopic Jerk Magnitude
+                  
+42. TimeBodyGyroscopicJerkMagnitudeStandardDeviation
+  - average for Standard Deviation value of Time Signal from Body Gyroscopic Jerk Magnitude
+       
+43. FrequencyBodyAccelerationMean-X
+  - average for mean value of Frequency from Body Acceleration - X axis
+                         
+44. FrequencyBodyAccelerationMean-Y
+  - average for mean value of Frequency from Body Acceleration - Y axis
+                     
+45. FrequencyBodyAccelerationMean-Z 
+  - average for mean value of Frequency from Body Acceleration - Z axis
+                         
+46. FrequencyBodyAccelerationStandardDeviation-X
+  - average for Standard Deviation value of Frequency from Body Acceleration - X axis
+             
+47. FrequencyBodyAccelerationStandardDeviation-Y
+  - average for Standard Deviation value of Frequency from Body Acceleration - Y axis
+           
+48. FrequencyBodyAccelerationStandardDeviation-Z
+  - average for Standard Deviation value of Frequency from Body Acceleration - Z axis
+             
+49. FrequencyBodyAccelerationJerkMean-X
+  - average for mean value of Frequency from Body Acceleration Jerk - X axis
+                      
+50. FrequencyBodyAccelerationJerkMean-Y
+  - average for mean value of Frequency from Body Acceleration Jerk - Y axis
+                     
+51. FrequencyBodyAccelerationJerkMean-Z
+  - average for mean value of Frequency from Body Acceleration Jerk - Z axis
+                   
+52. FrequencyBodyAccelerationJerkStandardDeviation-X
+  - average for Standard Deviation value of Frequency from Body Acceleration Jerk - X axis
+         
+53. FrequencyBodyAccelerationJerkStandardDeviation-Y
+  - average for Standard Deviation value of Frequency from Body Acceleration Jerk - Y axis
+       
+54. FrequencyBodyAccelerationJerkStandardDeviation-Z
+  - average for Standard Deviation value of Frequency from Body Acceleration Jerk - Z axis
+        
+55. FrequencyBodyGyroscopicMean-X
+  - average for mean value of Frequency from Body Gyroscope - X axis
+                           
+56. FrequencyBodyGyroscopicMean-Y
+  - average for mean value of Frequency from Body Gyroscope - Y axis
+                           
+57. FrequencyBodyGyroscopicMean-Z
+  - average for mean value of Frequency from Body Gyroscope - Z axis
+                          
+58. FrequencyBodyGyroscopicStandardDeviation-X
+  - average for Standard Deviation value of Frequency from Body Gyroscope - X axis
+              
+59. FrequencyBodyGyroscopicStandardDeviation-Y
+  - average for Standard Deviation value of Frequency from Body Gyroscope - Y axis
+              
+60. FrequencyBodyGyroscopicStandardDeviation-Z
+  - average for Standard Deviation value of Frequency from Body Gyroscope - Z axis
+              
+61. FrequencyBodyAccelerationMagnitudeMean
+  - average for mean value of Frequency from Body Acceleration Magnitude
+               
+62. FrequencyBodyAccelerationMagnitudeStandardDeviation  
+  - average for Standard Deviation value of Frequency from Body Acceleration Magnitude
+    
+63. FrequencyBodyAccelerationJerkMagnitudeMean
+  - average for mean value of Frequency from Body Acceleration Jerk Magnitude
+             
 64. FrequencyBodyAccelerationJerkMagnitudeStandardDeviation
-65. FrequencyBodyGyroscopicMagnitudeMean                   
-66. FrequencyBodyGyroscopicMagnitudeStandardDeviation      
-67. FrequencyBodyGyroscopicJerkMagnitudeMean               
-68. FrequencyBodyGyroscopicJerkMagnitudeStandardDeviation  
+  - average for Standard Deviation value of Frequency from Body Acceleration Jerk Magnitude
+  
+65. FrequencyBodyGyroscopicMagnitudeMean
+  - average for mean value of Frequency from Body Gyroscopic Magnitude
+                    
+66. FrequencyBodyGyroscopicMagnitudeStandardDeviation
+  - average for StandardDeviation value of Frequency from Body Gyroscopic Magnitude
+        
+67. FrequencyBodyGyroscopicJerkMagnitudeMean
+  - average for mean value of Frequency from Body Gyroscopic Jerk Magnitude
+               
+68. FrequencyBodyGyroscopicJerkMagnitudeStandardDeviation
+  - average for StandardDeviation value of Frequency from Body Gyroscopic Jerk Magnitude
